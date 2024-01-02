@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <video autoplay muted loop id="bg-video">
+            <source src="live2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <img id="gifImage" src="newYear.gif" class="hidden">
+    <div class="flex-container">
+        <div class="grid-container">
+            <div class="year box">
+                <p>Countdown till</p>
+                <h1 id="newYear"></h1>
+            </div>
+            <!-- <div class="countdown"> -->
+            <div class="days box"><span id="days"></span><span>Days</span></div>
+            <div class="hr box"><span id="hrs"></span><span>Hours</span></div>
+            <div class="min box"><span id="mins"></span><span>Minutes</span></div>
+            <div class="sec box"><span id="secs"></span><span>Seconds</span></div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
